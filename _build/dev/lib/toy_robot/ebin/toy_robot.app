@@ -1,0 +1,13 @@
+{application,toy_robot,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"toy_robot"},
+              {modules,['Elixir.ToyRobot.Application','Elixir.ToyRobot.CLI',
+                        'Elixir.ToyRobot.CommandInterpreter',
+                        'Elixir.ToyRobot.CommandRunner',
+                        'Elixir.ToyRobot.Game.Player',
+                        'Elixir.ToyRobot.Game.PlayerSupervisor',
+                        'Elixir.ToyRobot.Robot','Elixir.ToyRobot.Simulation',
+                        'Elixir.ToyRobot.Table']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ToyRobot.Application',[]}}]}.
